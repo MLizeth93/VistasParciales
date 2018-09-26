@@ -1,0 +1,23 @@
+﻿<table>
+    <tr>
+        @{
+            int respuesta;
+
+            for (int i = 1; i <= 12; i++)
+            {
+                for (int j = 1; j <= 12; j++)
+                {
+                    respuesta = j * i;
+
+                    <br />
+
+                    <h5>@i  X @j  = @respuesta   </h5>
+
+
+
+
+                }
+            }
+        }
+    </tr>
+</table>
